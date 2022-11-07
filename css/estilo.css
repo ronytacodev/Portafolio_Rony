@@ -571,7 +571,7 @@ footer a {
     }
 
     #sobremi .contenedor-foto {
-        max-width: 350px;
+        max-width: 300px;
         margin: auto;
     }
 
@@ -598,6 +598,10 @@ footer a {
 
     #servicios .fila .servicio {
         margin: 10px auto;
+    }
+
+    .contenedor-skills {
+        padding: 50px 20px;
     }
 
 }
