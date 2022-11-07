@@ -604,4 +604,16 @@ footer a {
         padding: 50px 20px;
     }
 
+    #portfolio {
+        padding: 50px 0;
+    }
+
+    #portfolio .fila {
+        display: block;
+    }
+
+    #portfolio .fila .proyecto {
+        margin: 10px auto;
+    }
+
 }
