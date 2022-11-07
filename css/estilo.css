@@ -587,4 +587,17 @@ footer a {
         font-size: 25px;
         text-align: center;
     }
+
+    #servicios {
+        padding: 50px 15px;
+    }
+
+    #servicios .fila {
+        display: block;
+    }
+
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+
 }
