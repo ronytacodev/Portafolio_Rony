@@ -71,6 +71,10 @@ html {
     color: #ff5080;
 }
 
+#inicio .contenido header .contenido-header .seleccionado {
+    color: #ff5080;
+}
+
 #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
