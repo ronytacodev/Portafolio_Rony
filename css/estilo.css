@@ -292,6 +292,7 @@ html {
     background-position: center center;
     padding: 100px 0;
     text-align: center;
+    color: #fff;
 }
 
 .contenedor-skills .skill {
@@ -302,6 +303,7 @@ html {
 .contenedor-skills .skill .info {
     display: flex;
     justify-content: space-between;
+    color: #fff;
 }
 
 .contenedor-skills .skill .lista {
