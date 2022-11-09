@@ -351,6 +351,13 @@ html {
     animation: progreso4 2s forwards;
 }
 
+.contenedor-skills .skill .barra .barra-progreso5 {
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso5 2s forwards;
+}
+
 /* Creamos las animaciones de las barras */
 
 @keyframes progreso1 {
@@ -390,6 +397,16 @@ html {
 
     100% {
         width: 85%;
+    }
+}
+
+@keyframes progreso5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
     }
 }
 
