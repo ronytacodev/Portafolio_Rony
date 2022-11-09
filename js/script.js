@@ -35,7 +35,7 @@ function efectoHabilidades(){
     if(distancia_skills >= 300) {
         document.getElementById("html").classList.add("barra-progreso1");
         document.getElementById("js").classList.add("barra-progreso2");
-        document.getElementById("c#").classList.add("barra-progreso3");
+        document.getElementById("java").classList.add("barra-progreso3");
         document.getElementById("bd").classList.add("barra-progreso4");
         document.getElementById("php").classList.add("barra-progreso5");
     }
