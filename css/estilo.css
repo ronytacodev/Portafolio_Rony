@@ -471,6 +471,10 @@ html {
     bottom: 0;
 }
 
+#portfolio .fila .proyecto .info a {
+    color: #fff;
+}
+
 /* SECCION CONTACTO */
 
 #contacto {
