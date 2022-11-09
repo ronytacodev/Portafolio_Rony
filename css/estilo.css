@@ -658,3 +658,9 @@ footer a {
     }
 
 }
+
+@media screen and (max-width:600px) {
+    #inicio .contenido .presentacion .bienvenida {
+        margin-top: 50px;
+    }
+}
