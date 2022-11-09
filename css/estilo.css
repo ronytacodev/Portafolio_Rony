@@ -663,4 +663,8 @@ footer a {
     #inicio .contenido .presentacion .bienvenida {
         margin-top: 50px;
     }
+
+    #sobremi .sobremi {
+        margin: auto;
+    }
 }
