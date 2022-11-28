@@ -38,7 +38,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -56,7 +56,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover {
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -68,11 +68,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #inicio .contenido .presentacion {
@@ -101,7 +101,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 25px;
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -125,7 +125,8 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: #ff5080;
+    background-color: #bebff8;
+    color: #000;
 }
 
 #icono-nav {
@@ -176,7 +177,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: #bebff8;
 }
 
 #sobremi .sobremi h3 {
@@ -206,8 +207,8 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #ff5080;
-    color: #fff;
+    background-color: #bebff8;
+    color: #000;
 }
 
 /* SECCION S E R V I C I O S */
@@ -236,7 +237,7 @@ html {
 
 #servicios .fila .servicio {
     max-width: 350px;
-    background-color: #fff;
+    background-color: #bebff8;
     padding: 30px;
     margin: 0 5px;
     border-radius: 5px;
@@ -284,7 +285,7 @@ html {
 /* SECCION HABILIDADES */
 
 .contenedor-skills {
-    background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, .8)),
+    background: linear-gradient(#bebff8, rgba(33, 16, 16, .8)),
         url("../images/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -292,7 +293,7 @@ html {
     background-position: center center;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .contenedor-skills .skill {
@@ -325,35 +326,35 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso1 {
     background-color: #fff;
-    width: 95%;
+    width: 100%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
     background-color: #fff;
-    width: 90%;
+    width: 100%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3 {
     background-color: #fff;
-    width: 90%;
+    width: 100%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4 {
     background-color: #fff;
-    width: 85%;
+    width: 100%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso5 {
     background-color: #fff;
-    width: 90%;
+    width: 100%;
     height: 6px;
     animation: progreso5 2s forwards;
 }
@@ -366,7 +367,7 @@ html {
     }
 
     100% {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -376,7 +377,7 @@ html {
     }
 
     100% {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -386,7 +387,7 @@ html {
     }
 
     100% {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -396,7 +397,7 @@ html {
     }
 
     100% {
-        width: 85%;
+        width: 100%;
     }
 }
 
@@ -406,7 +407,7 @@ html {
     }
 
     100% {
-        width: 60%;
+        width: 100%;
     }
 }
 
@@ -423,6 +424,7 @@ html {
     font-size: 22px;
     text-transform: uppercase;
     color: #111135;
+    background-color: #f3f3f3;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -458,7 +460,7 @@ html {
     position: absolute;
     left: 0;
     background-color: rgba(0, 0, 0, .8);
-    color: #ff5080;
+    color: #bebff8;
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -479,6 +481,8 @@ html {
 
 #contacto {
     padding: 100px 15px;
+    background: linear-gradient(#bebff8, rgba(33, 16, 16, .8)),
+        url("../images/fondo-contact.jpg");
 }
 
 #contacto .titulo-seccion {
@@ -533,8 +537,8 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ff5080;
-    color: #fff;
+    background-color: #bebff8;
+    color: #000;
 }
 
 /* SECCION FOOTER */
