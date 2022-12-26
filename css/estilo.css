@@ -450,7 +450,8 @@ html {
 /* SECCION PORTFOLIO */
 
 #portfolio {
-    max-width: 1100px;
+    /* max-width: 1100px; */
+    max-width: 1300px;
     padding: 100px 0;
     margin: auto;
 }
@@ -473,7 +474,9 @@ html {
 }
 
 #portfolio .fila .proyecto {
-    max-width: 450px;
+    /* max-width: 450px; */
+    max-width: 400px;
+    height: 300px;
     border: 1px solid #000;
     margin: 0 10px;
     position: relative;
@@ -481,8 +484,10 @@ html {
 }
 
 #portfolio .fila .proyecto img {
+    /* width: 100%; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 80%;
     filter: grayscale(1);
     object-fit: cover;
     transform: .5s;
@@ -502,6 +507,9 @@ html {
     opacity: 0;
     bottom: -40px;
     transition: .5s;
+    /* font-size: 22px; */
+    font-size: 14px;
+    height: 90px;
 }
 
 #portfolio .fila .proyecto:hover .info {
@@ -596,7 +604,7 @@ footer a {
 
 /* SECCION RESPONSIVE */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .redes {
         display: none;
     }
@@ -628,6 +636,14 @@ footer a {
         display: block;
     }
 
+    #inicio {
+        height: 80vh;
+    }
+
+    #inicio .contenido .presentacion {
+        height: 80vh;
+    }
+
     #inicio .contenido .presentacion h2 {
         font-size: 40px;
     }
@@ -656,23 +672,24 @@ footer a {
     }
 
     #servicios {
-        padding: 50px 15px;
-    }
-
-    #servicios .fila {
-        display: block;
+        padding: 50px 5px;
     }
 
     #servicios .fila .servicio {
-        margin: 10px auto;
+        margin: 10px 2px;
+        max-width: 250px;
+        padding: 15px 5px;
+        font-size: 12px;
     }
 
     .contenedor-skills {
-        padding: 50px 20px;
+        padding: 50px 50px;
     }
 
+
     #portfolio {
-        padding: 50px 0;
+        /* max-width: 1100px; */
+        max-width: 800px;
     }
 
     #portfolio .fila {
@@ -680,7 +697,14 @@ footer a {
     }
 
     #portfolio .fila .proyecto {
+        height: 300px;
+        width: 100%;
         margin: 10px auto;
+    }
+
+    #portfolio .fila .proyecto img {
+        width: 100%;
+        height: 80%;
     }
 
     #contacto {
@@ -738,5 +762,13 @@ footer a {
     .skill__name {
         font-size: 14px;
         text-align: center;
+    }
+
+    #portfolio .fila .proyecto {
+        margin: 10px 10px;
+    }
+
+    #portfolio .fila .proyecto img {
+        height: 70%;
     }
 }
