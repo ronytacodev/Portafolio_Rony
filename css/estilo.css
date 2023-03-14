@@ -186,6 +186,8 @@ html {
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    color: #bebff8;
+    text-shadow: 0 1px 1px black;
 }
 
 #sobremi .sobremi p {
@@ -193,6 +195,12 @@ html {
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
+}
+
+#sobremi .sobremi .sobremi-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #sobremi .sobremi a {
@@ -283,6 +291,10 @@ html {
 }
 
 /* SECCION HABILIDADES */
+.contenedor-skills h3 {
+    color: white;
+    text-shadow: 0 1px 1px black;
+}
 
 .contenedor-skills {
     background: linear-gradient(#bebff8, rgba(33, 16, 16, .8)),
@@ -671,6 +683,13 @@ footer a {
         text-align: center;
     }
 
+    #sobremi .sobremi h3 {
+        text-align: center;
+        text-align: center;
+        color: #bebff8;
+        text-shadow: 0 1px 1px black;
+    }
+
     #servicios {
         padding: 50px 5px;
     }
@@ -774,6 +793,20 @@ footer a {
 }
 
 @media screen and (max-width:450px) {
+    .sobremi h2 {
+        display: none;
+    }
+
+    .sobremi h3 {
+        text-align: center;
+        color: #bebff8;
+        text-shadow: 0 1px 1px black;
+    }
+
+    #sobremi .sobremi .sobremi-links a {
+        font-size: 12px;
+        padding: 5px;
+    }
 
     #servicios .fila {
         display: block;
