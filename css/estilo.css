@@ -523,7 +523,12 @@ html {
     bottom: 0;
 }
 
-#portfolio .grid .proyecto .info a {
+#portfolio .grid .proyecto .info div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio .grid .proyecto .info div a {
     color: #fff;
 }
 
