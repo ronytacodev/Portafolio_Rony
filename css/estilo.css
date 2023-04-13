@@ -495,13 +495,14 @@ html {
 #portfolio .grid .proyecto img {
     width: 100%;
     height: 80%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     object-fit: cover;
     transform: .5s;
 }
 
-#portfolio .grid .proyecto img:hover {
-    filter: grayscale(0);
+#portfolio .grid .proyecto:hover {
+    /* filter: grayscale(0); */
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 #portfolio .grid .proyecto .info {
